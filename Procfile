@@ -1,1 +1,1 @@
-web: gunicorn --chdir pagesProject pagesProject.wsgi:pages --log-file -
+web: gunicorn --chdir pagesProject pagesProject.wsgi:pages-app --log-file -
