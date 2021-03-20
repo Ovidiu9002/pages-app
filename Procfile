@@ -1,2 +1,2 @@
-web: gunicorn --chdir pagesProject pagesProject.wsgi:pages-app --log-file -
+web: gunicorn --chdir pagesProject pagesProject.pages-app.wsgi:pages-app --log-file -
 web: python manage.py runserver
